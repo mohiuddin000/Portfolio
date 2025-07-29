@@ -3,6 +3,7 @@ import './Myproject.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import blogapp from '../../assets/blogapp.png'
 import youtubeclone from '../../assets/youTube.png'
+import backeend from '../../assets/backend_info_Pic.png'
 
 
 const projects = [
@@ -22,14 +23,14 @@ const projects = [
       image: blogapp,
       github: "https://github.com/mohiuddin000/Blog-App.git",
     },
-    // {
-    //   title: "YouTube-Tweeter",
-    //   description:
-    //     "A social video-sharing app with commenting, likes, and uploads. Built with React and Appwrite.",
-    //   tech: "React, CSS, Appwrite",
-    //   image: "path/to/youtube-tweeter-image.png",
-    //   github: "https://github.com/mohiuddin000/Backend-tweeter-youtube.git",
-    // },
+    {
+      title: "YouTube-Tweeter",
+      description:
+        "Developed a modular backend combining Twitter and YouTube functionalities. Implemented user auth, video uploads, tweets, follow system, and comment/like APIs with secure role-based access.",
+      tech: "Node.js, Express.js, MongoDB, JWT, Multer",
+      image: backeend,
+      github: "https://github.com/mohiuddin000/Backend-tweeter-youtube.git",
+    },
   ];
 
   
